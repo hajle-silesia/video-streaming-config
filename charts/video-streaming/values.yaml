@@ -1,0 +1,11 @@
+oryx:
+  service:
+    port: 80
+  #  type: ClusterIP
+
+  ingress:
+    enabled: true
+    hosts:
+      - paths:
+          - path: /live/
+            pathType: ImplementationSpecific
