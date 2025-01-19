@@ -1,2 +1,5 @@
+service:
+  type: ClsuterIP
+
 conf:
   SRS_VHOST_RTC_RTMP_TO_RTC: "on"
