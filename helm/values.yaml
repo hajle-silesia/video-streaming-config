@@ -1,5 +1,5 @@
 service:
   type: ClusterIP
 
-conf:
-  SRS_VHOST_RTC_RTMP_TO_RTC: "on"
+ingress:
+  enabled: true
