@@ -1,8 +1,2 @@
-service:
-  type: NodePort
-
 conf:
   SRS_VHOST_RTC_RTMP_TO_RTC: "on"
-
-nodeSelector:
-  location: local
