@@ -1,8 +1,10 @@
 service:
   type: ClusterIP
+  port: 1935
 
 ingress:
   enabled: true
   hosts:
     - paths:
         - path: /video-stream
+          pathType: ImplementationSpecific
