@@ -6,5 +6,5 @@ ingress:
   enabled: true
   hosts:
     - paths:
-        - path: /video-stream
+        - path: /live/livestream
           pathType: ImplementationSpecific
