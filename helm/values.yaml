@@ -1,6 +1,6 @@
-#service:
+service:
+  port: 80
 #  type: ClusterIP
-#  port: 1935
 
 ingress:
   enabled: true
